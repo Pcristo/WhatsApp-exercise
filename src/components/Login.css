@@ -1,0 +1,30 @@
+.Login{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Login button{
+    padding: 15px 20px;
+    border-radius: 15px;
+    outline: none;
+    border:none;
+    cursor: pointer;
+    font-size:25px;
+    text-transform: uppercase;
+    background-color: #0F32A1;
+    color: white;
+    transition: all ease 0.3s;
+}
+
+.Login button:hover{
+    background-color: #1F32b9;
+}
+
+.facebook--icon{
+    color:#0F32A1;
+    margin-top: 50px;
+    
+}
